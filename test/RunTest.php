@@ -1,10 +1,11 @@
 <?php
 
 namespace PhpFp\Reader\Test;
+use PHPUnit\Framework\TestCase;
 
 use PhpFp\Reader\Reader;
 
-class RunTest extends \PHPUnit_Framework_TestCase
+class RunTest extends TestCase
 {
     public function testParameterCount()
     {
